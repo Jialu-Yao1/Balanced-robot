@@ -86,29 +86,4 @@ make -j$(getconf _NPROCESSORS_ONLN) && make -j1 upload SERIAL_PORT=/dev/ttyUSB0
 
 The serial port might differ depending on the environment and the operating system.
 
-## Labs
 
-All lab instructions and objectives are provided in the form of comment blocks in the project header and source files. Please RTDC (Read the Docs Carefully), as the comment blocks contain crucial information for students to understand and complete the labs.
-
-Check the course Canvas for the demo and codebase submission due dates and details. Certain labs may involve prolonged testing, experiments, and debugging. Therefore, please always start early!
-
-The storage of the lab workstations is entirely local, i.e., everything stays within each of the lab workstations and is not backed up or synced elsewhere. Therefore, the lab groups should stick to one lab workstation as much as possible to avoid repeated setups. Additionally, it is the student's sole responsibility to back up their codebases and employ proper version controls. Any loss of data due to malfunction of lab workstations does not constitute any extension or excuse for any labs.
-
-The labs are newly designed and implemented. Therefore, there are likely rough spots scattered throughout the project. Please help us improve by reporting any bugs, typos, or any other issues or mistakes to the TA.
-
-Refer to the following lab guides:
-- [Biped](docs/biped-firmware/general/biped.md)
-- [Eclipse](docs/biped-firmware/general/eclipse.md)
-
-Refer to the following lab instructions:
-- [Lab 1: Setup and I/O](docs/biped-firmware/labs/lab_1.md)
-- [Lab 2: Hardware Timer](docs/biped-firmware/labs/lab_2.md)
-- [Lab 3: FreeRTOS](docs/biped-firmware/labs/lab_3.md)
-- [Lab 4: I/O Expander](docs/biped-firmware/labs/lab_4.md)
-- [Lab 5: Biped Ground Station](docs/biped-firmware/labs/lab_5.md)
-- [Lab 6: Sensing and Actuation](docs/biped-firmware/labs/lab_6.md)
-- [Lab 7: Control](docs/biped-firmware/labs/lab_7.md)
-- [Lab 8: Planning](docs/biped-firmware/labs/lab_8.md)
-- [Lab 9: Application](docs/biped-firmware/labs/lab_9.md)
-
-Good luck, and have fun!
